@@ -5,10 +5,11 @@ export function ProjectCard({ project }: { project: Project }) {
   const accentColor = project.accent === "amber" ? "var(--amber)" : "var(--teal)";
 
   return (
-    <Link
-      href={`/projects/${project.slug}`}
-      className="group flex flex-col rounded-2xl border border-border bg-bg-elevated p-7 transition-all hover:border-border-strong hover:bg-bg-inset sm:p-8"
-    >
+    <div className="group relative flex flex-col rounded-2xl border border-border bg-bg-elevated p-7 transition-all hover:border-border-strong hover:bg-bg-inset sm:p-8">
+      <Link href={`/projects/${project.slug}`} className="absolute inset-0 z-0">
+        <span className="sr-only">View case study: {project.name}</span>
+      </Link>
+
       <div className="flex items-start justify-between gap-4">
         <span
           className="font-mono-tag text-xs uppercase tracking-wider"
@@ -47,6 +48,17 @@ export function ProjectCard({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-    </Link>
+
+      <div className="relative z-10 mt-6 flex items-center gap-2 border-t border-border pt-6">
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono-tag text-xs uppercase tracking-wider text-muted-2 transition-colors hover:text-foreground"
+        >
+          View on GitHub ↗
+        </a>
+      </div>
+    </div>
   );
 }
