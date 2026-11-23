@@ -24,13 +24,12 @@ export default function InquiryPage() {
               Let&apos;s Automate Your Workflow
             </h1>
             <p className="mt-5 max-w-xl text-balance text-lg leading-relaxed text-muted">
-              Tell me what you&apos;re doing manually. I&apos;ll figure out what&apos;s worth
-              automating.
+              Share a project idea, collaboration opportunity, or technical question.
             </p>
             <p className="mt-3 max-w-xl text-sm text-muted-2">
               Want to connect directly?{" "}
               <a
-                href={site.links.upwork}
+                href={site.links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal hover:underline"
