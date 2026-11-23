@@ -1,59 +1,52 @@
-# Mohamed Khaled — Portfolio
+# Mohamed Khaled — AI Engineer Portfolio
 
-AI Automation Engineer portfolio built with Next.js (App Router), TypeScript, and Tailwind CSS 4.
+A cinematic, responsive portfolio showcasing Mohamed's work across Machine Learning, Generative AI, LLM applications, RAG, NLP, and AI automation.
 
-## Stack
-
-- Next.js 16 (App Router, static generation)
+## Built with
+- Next.js App Router
 - TypeScript
-- Tailwind CSS v4
-- Self-hosted fonts via `@fontsource` (Sora, Manrope, JetBrains Mono)
-- Netlify Forms for the `/inquiry` project-intake form
+- Tailwind CSS
+- Sora, Manrope, and JetBrains Mono self-hosted fonts
 
-## Structure
+## Features
+- Responsive layout and mobile navigation
+- Animated hero and section transitions
+- Searchable project gallery with category filters
+- Individual project case studies with problem, approach, technologies, and workflow
+- Direct GitHub links and a live demo link where one is available
+- Contact dialog for email, LinkedIn, and GitHub
+- SEO metadata, sitemap, and robots configuration
 
-```
-src/
-  app/
-    page.tsx                  → homepage (assembles section components)
-    projects/[slug]/page.tsx  → dynamic project case-study pages
-    inquiry/page.tsx          → project intake form
-    sitemap.ts / robots.ts    → SEO
-    icon.tsx / opengraph-image.tsx → generated favicon + OG image
-  components/                 → Nav, Footer, Hero, sections, ProjectCard, WorkflowDiagram, InquiryForm...
-  data/
-    site.ts                   → personal info, services, tech stack, process
-    projects.ts                → the three case studies (single source of truth)
-```
+## Featured work
+1. CampaignForge AI — LLM-powered marketing campaign generation with RAG.
+2. Smart Hotel Operations Automation — reservation, housekeeping, checkout, and payment workflows.
+3. AI Customer Support Automation — LLM classification and workflow routing.
+4. AI Order Cancellation Agent — eligibility checks and confirmation before execution.
+5. Bilingual PDF RAG Q&A — Arabic/English document question answering.
+6. Network Attack Detector — UNSW-NB15 classification with a Streamlit demo.
+7. EduPilot AI — graduation project in planning and initial setup; planned functionality is labelled as such.
 
 ## Local development
-
 ```bash
 npm install
 npm run dev
 ```
 
 ## Production build
-
 ```bash
 npm run build
 npm run start
 ```
 
-## Deploying to Netlify
+## Deployment
+The project includes a Netlify configuration. Connect this GitHub repository to a Netlify site and use `npm run build` as the build command. No application API keys are required for the portfolio frontend.
 
-1. Push this repo to GitHub.
-2. In Netlify: **Add new site → Import an existing project**, connect the repo.
-3. Netlify auto-detects Next.js. Build command: `npm run build`. The `netlify.toml`
-   in this repo already sets that and enables `@netlify/plugin-nextjs`.
-4. Deploy. No environment variables are required.
-5. The `/inquiry` form is a static HTML form (server-rendered) with
-   `data-netlify="true"`, so Netlify will detect and register it automatically
-   on the first deploy. Submissions appear under **Site → Forms** in the
-   Netlify dashboard, and you can turn on email notifications there.
+## Content updates
+- Personal information and skills: `src/data/site.ts`
+- Project case studies: `src/data/projects.ts`
+- Main sections and UI: `src/components/`
 
-## Content
-
-All personal info, links, services, and the three project case studies live in
-`src/data/site.ts` and `src/data/projects.ts` — edit those files to update copy
-without touching components.
+## Contact
+- GitHub: https://github.com/mohamedkhaled5543
+- LinkedIn: https://www.linkedin.com/in/mkhaled-ai
+- Email: mohamedeissa651@gmail.com
