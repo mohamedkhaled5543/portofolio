@@ -1,6 +1,5 @@
 import { Section, Eyebrow } from "./ui";
-import { projects } from "@/data/projects";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectExplorer } from "./ProjectExplorer";
 import { site } from "@/data/site";
 
 export function FeaturedProjects() {
@@ -27,11 +26,7 @@ export function FeaturedProjects() {
         </a>
       </div>
 
-      <div className="mt-14 grid gap-6 lg:grid-cols-3">
-        {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
-        ))}
-      </div>
+      <ProjectExplorer />
     </Section>
   );
 }
