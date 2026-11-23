@@ -39,7 +39,7 @@ npm run start
 ```
 
 ## Deployment
-The project includes a Netlify configuration. Connect this GitHub repository to a Netlify site and use `npm run build` as the build command. No application API keys are required for the portfolio frontend.
+The app is configured as a static Next.js export (`out/`), so it can be hosted on free static-site tiers. Recommended options are Render Static Sites or Netlify. On Render, connect this repository, use `npm run build` as the build command, and `out` as the publish directory. On Netlify, the included `netlify.toml` sets the same build and publish settings. No application API keys are required. The contact form prepares an email in the visitor's email app; it does not require a backend.
 
 ## Content updates
 - Personal information and skills: `src/data/site.ts`
