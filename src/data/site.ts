@@ -1,90 +1,88 @@
 export const site = {
   name: "Mohamed Khaled Eissa",
-  role: "AI Automation Engineer",
+  role: "AI Engineer",
   location: "Egypt",
-  currentRole: "LLMs Intern at Tips Hindawi",
-  currentRoleSince: "Aug 2026",
+  education: "Final-year Computer Science Student · Helwan National University",
   email: "mohamedeissa651@gmail.com",
   links: {
-    linkedin: "https://www.linkedin.com/in/mohamed-khaled-eissa-091b8528a/",
+    linkedin: "https://www.linkedin.com/in/mkhaled-ai",
     github: "https://github.com/mohamedkhaled5543",
-    upwork: "https://www.upwork.com/freelancers/~01f6e2e30ab5534fff?mp_source=share",
   },
   siteUrl: "https://mohamedkhaled.netlify.app",
-  tagline: "Turn repetitive business processes into intelligent systems.",
+  tagline: "Building intelligent systems with AI, LLMs, and automation.",
 };
 
 export const services = [
   {
-    title: "Lead Automation",
+    title: "Generative AI & LLM Applications",
     description:
-      "Every lead is captured, qualified against your criteria, and routed to the right owner the moment it comes in — not the next time someone checks the inbox.",
+      "Building practical applications powered by language models, structured prompts, retrieval, and backend integrations.",
   },
   {
-    title: "Customer Support Automation",
+    title: "RAG & Knowledge Systems",
     description:
-      "Incoming requests are classified and matched to your business logic, so an AI agent — not just a keyword filter — resolves the routine cases on its own.",
+      "Connecting language models to external knowledge with embeddings, vector search, and source-grounded responses.",
   },
   {
-    title: "AI Agent Workflows",
+    title: "AI Agents & Automation",
     description:
-      "Agents built on real tool access, not prompt tricks. They query your actual data, apply your rules, and only act once the conditions are genuinely met.",
+      "Designing tool-using agents and n8n workflows that combine model reasoning with explicit business rules and safe execution.",
   },
   {
-    title: "Business Operations Automation",
+    title: "Machine Learning",
     description:
-      "Multi-step operations — reservations, approvals, fulfillment — run as one connected workflow across your existing tools, instead of a chain of manual handoffs.",
+      "Preparing data, training models, evaluating results, and turning experiments into usable applications.",
   },
   {
-    title: "Document Processing",
+    title: "Backend & API Development",
     description:
-      "Invoices, forms, and incoming documents are parsed, validated, and pushed into your systems as structured data — nobody retypes what's already been submitted.",
+      "Building Python APIs and application backends that connect models, data, and user-facing interfaces.",
   },
   {
-    title: "API & Webhook Integrations",
+    title: "NLP & Deep Learning",
     description:
-      "Whatever's in your stack — Gmail, Sheets, Telegram, a database, a custom API — I build the integration layer that keeps everything in sync in real time.",
+      "Exploring text representation, neural networks, sequence models, and language-focused machine learning.",
   },
 ];
 
 export const techStack = {
-  "AI / Automation": ["AI Agents", "LLMs", "Workflow Automation", "n8n", "OpenAI", "OpenRouter"],
-  Programming: ["Python", "SQL", "JavaScript", "TypeScript"],
-  "Backend / APIs": ["FastAPI", "REST APIs", "Webhooks"],
-  Data: ["PostgreSQL", "Google Sheets", "Pandas", "NumPy", "scikit-learn"],
-  Infrastructure: ["Docker", "Git", "GitHub"],
-  Integrations: ["Gmail", "Telegram", "Google Sheets", "Google Forms", "APIs", "Webhooks"],
+  "Programming & Data": ["Python", "SQL", "JavaScript", "NumPy", "Pandas"],
+  "Machine Learning": ["Scikit-learn", "XGBoost", "Model Evaluation", "Feature Engineering"],
+  "Deep Learning & NLP": ["Neural Networks", "CNNs", "Transfer Learning", "NLP", "Embeddings"],
+  "Generative AI": ["LLMs", "RAG", "LangChain", "FAISS", "Hugging Face"],
+  "Backend & Apps": ["FastAPI", "REST APIs", "Streamlit", "PostgreSQL"],
+  "Automation & Tools": ["n8n", "Git", "GitHub", "Docker", "Google Colab"],
 };
 
 export const howIWork = [
   {
     step: "01",
-    title: "Understand the process",
+    title: "Understand the problem",
     description:
-      "Before any automation, I map the real process — the steps, the tools involved, and where the manual work actually happens.",
+      "Start with the real user or business problem, the available data, and the constraints that shape the solution.",
   },
   {
     step: "02",
     title: "Design the system",
     description:
-      "I design a workflow around business rules and real data, not a demo that only works in the happy path.",
+      "Choose an approach that fits the problem, combining models, retrieval, APIs, and deterministic logic where appropriate.",
   },
   {
     step: "03",
-    title: "Connect the tools",
+    title: "Build and integrate",
     description:
-      "APIs, webhooks, and integrations tie your existing tools together instead of forcing you onto new ones.",
+      "Turn the design into a working application, connect its components, and handle practical edge cases.",
   },
   {
     step: "04",
-    title: "Apply AI where it earns its place",
+    title: "Evaluate and improve",
     description:
-      "AI handles understanding and judgment calls; deterministic logic handles rules, verification, and execution.",
+      "Test behavior, inspect failures, measure model performance where possible, and refine the implementation.",
   },
   {
     step: "05",
-    title: "Hand over a working system",
+    title: "Document the work",
     description:
-      "You get a system that runs reliably and stays maintainable — with humans kept in the loop where decisions need them.",
+      "Make the result understandable and maintainable through clear documentation, reproducible steps, and source code.",
   },
 ];
