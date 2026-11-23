@@ -99,23 +99,21 @@ export default async function ProjectPage({
         </div>
 
         <Section className="!pt-16">
-          <div className="grid gap-14 lg:grid-cols-2">
-            <div>
-              <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">
-                The Problem
-              </p>
-              <p className="mt-4 text-[15px] leading-relaxed text-muted">{project.problem}</p>
-            </div>
-            <div>
-              <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">
-                What It Does
-              </p>
-              <p className="mt-4 text-[15px] leading-relaxed text-muted">
-                {project.whatItDoes}
-              </p>
-            </div>
-          </div>
-        </Section>
+  <div className="grid gap-10 lg:grid-cols-3">
+    <div>
+      <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">The Problem</p>
+      <p className="mt-4 text-[15px] leading-relaxed text-muted">{project.problem}</p>
+    </div>
+    <div>
+      <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">What It Does</p>
+      <p className="mt-4 text-[15px] leading-relaxed text-muted">{project.whatItDoes}</p>
+    </div>
+    <div>
+      <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">My Contribution</p>
+      <p className="mt-4 text-[15px] leading-relaxed text-muted">{project.contribution}</p>
+    </div>
+  </div>
+</Section>
 
         <Section className="border-t border-border !pt-16">
           <p className="font-mono-tag text-xs uppercase tracking-wider text-muted-2">
