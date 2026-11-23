@@ -14,6 +14,7 @@ export type Project = {
   technologies: string[];
   workflow: WorkflowStep[];
   github: string;
+  demo?: string;
   accent: "amber" | "teal";
 };
 
@@ -163,6 +164,7 @@ export const projects: Project[] = [
       { label: "Prediction App", detail: "The selected model is exposed through a Streamlit interface." }
     ],
     github: "https://github.com/mohamedkhaled5543/network-attack-detector",
+    demo: "https://network-attack-detector-gpvygc2guzznwdhsjbuxyh.streamlit.app/",
     accent: "teal"
   },
   {
