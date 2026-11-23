@@ -10,6 +10,7 @@ export type Project = {
   tagline: string;
   problem: string;
   whatItDoes: string;
+  contribution: string;
   businessValue: string[];
   technologies: string[];
   workflow: WorkflowStep[];
@@ -26,6 +27,7 @@ export const projects: Project[] = [
     tagline: "An AI-powered workflow that turns a product brief into a structured marketing campaign.",
     problem: "Creating a marketing campaign requires understanding a product, researching its audience, choosing a strategy, and producing platform-ready content. Doing each step manually takes time and can lead to disconnected creative decisions.",
     whatItDoes: "CampaignForge takes a product brief, uses a marketing knowledge base through retrieval-augmented generation, proposes strategic directions, and generates campaign content for social platforms alongside an AI-generated advertising visual. The project combines LLM orchestration, retrieval, backend APIs, and a user interface.",
+    contribution: "Built the core AI workflow and integrated retrieval, LLM orchestration, backend endpoints, and the user-facing campaign generation experience.",
     businessValue: [
       "Connects product understanding, strategy, and content generation in one workflow",
       "Uses retrieved marketing knowledge to ground campaign recommendations",
@@ -51,6 +53,7 @@ export const projects: Project[] = [
     tagline: "Coordinates reservations, housekeeping, checkout, and payment workflows.",
     problem: "Hotel operations often spread information across booking forms, spreadsheets, email, and staff messaging. Manually transferring updates between these tools creates delays and opportunities for mistakes.",
     whatItDoes: "This n8n automation project connects reservation intake with room availability checks, housekeeping operations, guest checkout, payment recording, receipts, and daily reporting. It uses date-overlap logic for reservations and includes safeguards such as duplicate-payment prevention.",
+    contribution: "Designed and implemented the connected n8n workflows, reservation checks, operational state updates, payment safeguards, and notifications.",
     businessValue: [
       "Checks room availability using reservation date ranges",
       "Coordinates room status and housekeeping tasks",
@@ -76,6 +79,7 @@ export const projects: Project[] = [
     tagline: "Uses an LLM to classify incoming requests and route them through connected workflows.",
     problem: "Support teams receive repeated requests that need to be understood, categorized, and routed. Manual triage takes time and makes it harder to keep records and notifications consistent.",
     whatItDoes: "The workflow receives incoming email, validates the request, uses an LLM through OpenRouter to classify intent into structured output, and routes the case to the relevant operational path. It logs activity and can send customer responses and team alerts through connected services.",
+    contribution: "Built the n8n workflow orchestration, LLM classification step, structured routing, logging, and communication integrations.",
     businessValue: [
       "Automates initial message classification and routing",
       "Uses structured model output to support downstream workflow logic",
@@ -100,6 +104,7 @@ export const projects: Project[] = [
     tagline: "An AI agent that verifies cancellation eligibility and asks for confirmation before acting.",
     problem: "A cancellation request should not be executed based on a chat message alone. The system must find the correct order, verify its status against policy, and obtain customer confirmation before changing data.",
     whatItDoes: "This n8n-based agent interprets a cancellation request, looks up order details, checks eligibility, asks the customer to confirm, and rechecks the conditions before executing the cancellation. PostgreSQL is used for agent memory, with connected services for order records and messaging.",
+    contribution: "Designed the agent workflow, tool interactions, eligibility checks, explicit confirmation step, and final revalidation before execution.",
     businessValue: [
       "Checks order status and payment conditions before cancellation",
       "Requires explicit customer confirmation before execution",
@@ -125,6 +130,7 @@ export const projects: Project[] = [
     tagline: "Question answering over PDF documents in Arabic and English with retrieved context.",
     problem: "Finding precise information in long documents can be difficult, especially when users need to ask questions in more than one language and verify where an answer came from.",
     whatItDoes: "This application processes a PDF into searchable chunks, creates multilingual embeddings, retrieves relevant passages with FAISS, and sends the retrieved context to an LLM to generate an answer. The Streamlit interface supports Arabic and English questions.",
+    contribution: "Implemented the document ingestion and retrieval pipeline, multilingual embedding workflow, LLM answer generation, and Streamlit interface.",
     businessValue: [
       "Supports questions in Arabic and English",
       "Retrieves relevant document passages before generation",
@@ -149,6 +155,7 @@ export const projects: Project[] = [
     tagline: "A machine learning application for network intrusion classification.",
     problem: "Network traffic datasets contain patterns that can indicate normal activity or malicious behavior. A useful classifier needs to be evaluated across both attack and normal classes, not just by overall accuracy.",
     whatItDoes: "This project trains and evaluates classification models on the UNSW-NB15 dataset and exposes predictions through a Streamlit application. The repository reports an XGBoost test accuracy of 0.85, F1 score of 0.837, attack recall of 0.96, and normal recall of 0.78.",
+    contribution: "Worked on data preparation, model training and evaluation, threshold exploration, and the Streamlit prediction interface.",
     businessValue: [
       "Applies supervised learning to network intrusion detection",
       "Reports class-level evaluation metrics alongside accuracy",
@@ -174,6 +181,7 @@ export const projects: Project[] = [
     tagline: "Graduation project · a multi-agent intelligent learning platform currently in its planning and initial setup phase.",
     problem: "Students and instructors often rely on separate tools for course materials, practice, feedback, and performance insights. A connected learning platform could make these activities more coherent and personalized.",
     whatItDoes: "EduPilot AI is the team's graduation project concept: an intelligent learning platform planned to include a RAG-based tutor with source citations, assessment generation and grading, student performance analytics, and instructor support. The current work is focused on requirements and initial project setup; the planned features should not be interpreted as completed functionality.",
+    contribution: "Contributing to the team project during requirements definition and initial setup. Feature ownership and implementation are still being developed.",
     businessValue: [
       "Explores how AI can support learning and teaching workflows",
       "Plans source-grounded answers over course materials",
