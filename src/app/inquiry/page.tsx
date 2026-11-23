@@ -5,9 +5,9 @@ import { InquiryForm } from "@/components/InquiryForm";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Let's Automate Your Workflow",
+  title: "Project & Collaboration Inquiry",
   description:
-    "Tell me what you're doing manually. I'll figure out what's worth automating.",
+    "Share a project idea, collaboration opportunity, or technical question.",
 };
 
 export default function InquiryPage() {
@@ -28,14 +28,14 @@ export default function InquiryPage() {
               automating.
             </p>
             <p className="mt-3 max-w-xl text-sm text-muted-2">
-              Prefer working through a freelance platform instead?{" "}
+              Want to connect directly?{" "}
               <a
                 href={site.links.upwork}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal hover:underline"
               >
-                Hire me on Upwork ↗
+                Connect with me on LinkedIn ↗
               </a>
             </p>
           </div>
