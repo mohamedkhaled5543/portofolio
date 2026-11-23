@@ -10,10 +10,10 @@ export function FeaturedProjects() {
         <div className="max-w-2xl">
           <Eyebrow>Featured Projects</Eyebrow>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Real systems, built and shipped to GitHub.
+            Selected projects across AI, ML, and automation.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted">
-            Each project below is a working automation system — not a demo. Open the case study
+            A selection of practical projects. Explore each case study
             for the architecture, or the repo for the code.
           </p>
         </div>
