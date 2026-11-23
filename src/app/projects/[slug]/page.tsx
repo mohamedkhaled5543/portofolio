@@ -85,6 +85,11 @@ export default async function ProjectPage({
               >
                 View on GitHub ↗
               </a>
+              {project.demo && (
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-teal/40 bg-teal/10 px-5 py-2.5 font-mono-tag text-xs uppercase tracking-wider text-teal transition-colors hover:bg-teal/20">
+                  Live Demo ↗
+                </a>
+              )}
               <StartProjectButton
                 label="Discuss a similar system"
                 className="!px-5 !py-2.5 !text-xs"
