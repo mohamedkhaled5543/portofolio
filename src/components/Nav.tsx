@@ -6,7 +6,7 @@ import { StartProjectButton } from "./StartProjectButton";
 import { site } from "@/data/site";
 
 const navLinks = [
-  { href: "/#services", label: "Services" },
+  { href: "/#services", label: "Focus Areas" },
   { href: "/#projects", label: "Projects" },
   { href: "/#how-i-work", label: "How I Work" },
   { href: "/#about", label: "About" },
