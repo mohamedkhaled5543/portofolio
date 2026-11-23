@@ -7,7 +7,7 @@ export function TechStack() {
       <div className="max-w-2xl">
         <Eyebrow accent="teal">Technology</Eyebrow>
         <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          The stack behind every system.
+          Tools and technologies I use across my projects.
         </h2>
       </div>
 
