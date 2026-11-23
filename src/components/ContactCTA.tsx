@@ -11,7 +11,7 @@ export function ContactCTA() {
             style={{ background: "radial-gradient(circle, var(--amber) 0%, transparent 70%)" }}
           />
           <p className="relative font-mono-tag text-xs uppercase tracking-[0.2em] text-amber">
-            Got a process worth automating?
+            Have an opportunity or an interesting AI problem?
           </p>
           <h2 className="relative mx-auto mt-5 max-w-2xl text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Let&apos;s turn it into a system that runs on its own.
