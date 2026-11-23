@@ -21,7 +21,7 @@ export default function InquiryPage() {
               Project Inquiry
             </p>
             <h1 className="mt-4 max-w-2xl text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-              Let&apos;s Automate Your Workflow
+              Let&apos;s talk about AI and collaboration.
             </h1>
             <p className="mt-5 max-w-xl text-balance text-lg leading-relaxed text-muted">
               Share a project idea, collaboration opportunity, or technical question.
@@ -49,9 +49,9 @@ export default function InquiryPage() {
                 </p>
                 <ol className="mt-4 space-y-4">
                   {[
-                    "I review your inquiry and the process you've described.",
+                    "I review your message and the context you provide.",
                     "I reply by email with initial thoughts and questions.",
-                    "If it's a fit, we scope the system together before any build starts.",
+                    "If there is a good fit, we can discuss a practical next step.",
                   ].map((text, i) => (
                     <li key={text} className="flex gap-3 text-sm text-muted">
                       <span className="font-mono-tag text-xs text-amber">
