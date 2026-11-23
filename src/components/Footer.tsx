@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Briefcase, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./BrandIcons";
 import { site } from "@/data/site";
 
@@ -7,7 +7,6 @@ const connectItems = [
   { label: "Email", href: `mailto:${site.email}`, icon: Mail },
   { label: "LinkedIn", href: site.links.linkedin, icon: LinkedinIcon },
   { label: "GitHub", href: site.links.github, icon: GithubIcon },
-  { label: "Upwork", href: site.links.upwork, icon: Briefcase },
 ];
 
 export function Footer() {
@@ -23,8 +22,7 @@ export function Footer() {
               <span className="text-foreground">{site.name}</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted">
-              {site.role} building automation systems that connect AI, APIs, and business logic
-              into workflows that run on their own.
+              {site.role} exploring Machine Learning, Generative AI, LLM applications, and intelligent automation.
             </p>
           </div>
 
@@ -34,7 +32,7 @@ export function Footer() {
               <ul className="mt-4 space-y-2.5 text-sm">
                 <li>
                   <Link href="/#services" className="text-muted hover:text-foreground">
-                    Services
+                    Focus Areas
                   </Link>
                 </li>
                 <li>
@@ -49,7 +47,7 @@ export function Footer() {
                 </li>
                 <li>
                   <Link href="/inquiry" className="text-muted hover:text-foreground">
-                    Project Form
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -77,7 +75,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col-reverse items-start gap-4 border-t border-border pt-6 text-xs text-muted-2 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
-          <p className="font-mono-tag">Based in {site.location} · Available for freelance work</p>
+          <p className="font-mono-tag">Based in {site.location} · Open to internships & opportunities</p>
         </div>
       </div>
     </footer>
