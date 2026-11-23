@@ -14,11 +14,10 @@ export function ContactCTA() {
             Have an opportunity or an interesting AI problem?
           </p>
           <h2 className="relative mx-auto mt-5 max-w-2xl text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Let&apos;s turn it into a system that runs on its own.
+            Let&apos;s connect and build something useful.
           </h2>
           <p className="relative mx-auto mt-4 max-w-lg text-[15px] leading-relaxed text-muted">
-            Tell me what&apos;s eating your team&apos;s time, and I&apos;ll tell you honestly
-            whether — and how — it should be automated.
+            I&apos;m open to AI/ML internships, collaboration, and conversations about practical AI projects.
           </p>
           <div className="relative mt-9 flex flex-wrap items-center justify-center gap-4">
             <StartProjectButton />
