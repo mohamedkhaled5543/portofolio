@@ -5,12 +5,12 @@ export function Services() {
   return (
     <Section id="services">
       <div className="max-w-2xl">
-        <Eyebrow accent="teal">What I Build</Eyebrow>
+        <Eyebrow accent="teal">Areas of Focus</Eyebrow>
         <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          Systems that remove manual work, not just automate the easy parts.
+          Exploring AI from models to working applications.
         </h2>
         <p className="mt-4 text-lg leading-relaxed text-muted">
-          Each service below is built around the same idea: identify the repetitive part of a
+          These are the technical areas I study and apply across my projects. Each area reflects a
           process, and replace it with a system that runs it consistently.
         </p>
       </div>
