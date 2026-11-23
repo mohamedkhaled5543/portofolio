@@ -21,6 +21,7 @@ export default function Home() {
         <BusinessImpact />
         <HowIWork />
         <TechStack />
+        <Highlights />
         <About />
         <ContactCTA />
       </main>
