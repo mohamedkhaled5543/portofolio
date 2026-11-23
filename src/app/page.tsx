@@ -8,6 +8,7 @@ import { HowIWork } from "@/components/HowIWork";
 import { TechStack } from "@/components/TechStack";
 import { About } from "@/components/About";
 import { ContactCTA } from "@/components/ContactCTA";
+import { Highlights } from "@/components/Highlights";
 
 export default function Home() {
   return (
