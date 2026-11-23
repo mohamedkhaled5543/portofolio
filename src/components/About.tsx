@@ -1,4 +1,4 @@
-import { Briefcase, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./BrandIcons";
 import { Section, Eyebrow } from "./ui";
 import { site } from "@/data/site";
@@ -37,22 +37,22 @@ export function About() {
         <div>
           <Eyebrow>About</Eyebrow>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            I build the systems behind the automation, not just the demo.
+            Curious about AI. Focused on building useful systems.
           </h2>
           <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted">
             <p>
-              I&apos;m Mohamed, an AI Automation Engineer focused on building practical systems
+              I&apos;m Mohamed, a final-year Computer Science student at Helwan National University in Egypt, working toward a career as an AI Engineer
               that combine AI, workflow automation, APIs, and data.
             </p>
             <p>
-              I take repetitive manual processes and turn them into reliable workflows that
-              operate automatically — while keeping people in the loop wherever a decision
-              actually needs one. That means agents that check real data before acting, and
-              automations built around a business&apos;s actual rules, not a simplified version of
-              them.
+              My interests include Machine Learning, Generative AI, LLM applications, RAG, NLP, AI agents, and automation. I enjoy building end-to-end projects that
+              that connect models, data, APIs, and user-facing applications. While building, I focus on
+              clear problem-solving, reliable system behavior, and honest evaluation rather than
+              overstating what a model or application can do.
+              
             </p>
             <p>
-              I&apos;m currently an <span className="text-foreground">LLMs Intern at Tips
+              My current focus is <span className="text-foreground">LLMs Intern at Tips
               Hindawi</span> (since {site.currentRoleSince}), working hands-on with large language
               models alongside building automation systems independently.
             </p>
@@ -99,9 +99,9 @@ export function About() {
             <span className="mt-1.5 h-2 w-2 shrink-0 animate-pulse-dot rounded-full bg-teal" />
             <div>
               <p className="font-display text-base font-semibold text-foreground">
-                {site.currentRole}
+                {site.education}
               </p>
-              <p className="mt-1 text-sm text-muted">Since {site.currentRoleSince}</p>
+              <p className="mt-1 text-sm text-muted">Helwan National University · Egypt</p>
             </div>
           </div>
 
@@ -112,15 +112,15 @@ export function About() {
             </div>
             <div className="flex justify-between gap-4 text-sm">
               <span className="text-muted-2">Focus</span>
-              <span className="text-right text-foreground">AI agents &amp; workflow automation</span>
+              <span className="text-right text-foreground">AI Engineering</span>
             </div>
             <div className="flex justify-between gap-4 text-sm">
               <span className="text-muted-2">Works with</span>
-              <span className="text-right text-foreground">n8n, LLMs, APIs, data pipelines</span>
+              <span className="text-right text-foreground">Python, ML, LLMs, RAG, n8n</span>
             </div>
             <div className="flex justify-between gap-4 text-sm">
               <span className="text-muted-2">Availability</span>
-              <span className="text-right text-teal">Open to freelance projects</span>
+              <span className="text-right text-teal">Open to internships &amp; opportunities</span>
             </div>
           </div>
         </div>
