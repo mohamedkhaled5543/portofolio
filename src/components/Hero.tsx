@@ -22,11 +22,11 @@ export function Hero() {
           </p>
 
           <h1 className="mt-6 text-balance font-display text-4xl font-bold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Turn repetitive business
+            Turn ideas into
             <br />
-            processes into{" "}
+            practical AI{" "}
             <span className="relative whitespace-nowrap">
-              <span className="relative z-10 text-amber">intelligent systems.</span>
+              <span className="relative z-10 text-amber">solutions.</span>
               <svg
                 className="absolute -bottom-1 left-0 z-0 w-full"
                 height="10"
@@ -45,7 +45,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-balance text-lg leading-relaxed text-muted">
-            I design and build AI agents, workflows, and integrations that take manual, repetitive
+            I’m Mohamed, a final-year Computer Science student focused on AI Engineering. I build practical projects across machine learning, Generative AI, LLM applications, RAG, and intelligent automation.
             work off your team&apos;s plate — connecting the tools you already use into systems that
             run reliably on their own.
           </p>
@@ -61,15 +61,15 @@ export function Hero() {
           </div>
 
           <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-border pt-8 font-mono-tag text-xs uppercase tracking-wider text-muted-2">
+            <span>Python</span>
+            <span className="h-1 w-1 rounded-full bg-muted-2" />
+            <span>LLMs &amp; RAG</span>
+            <span className="h-1 w-1 rounded-full bg-muted-2" />
+            <span>Machine Learning</span>
+            <span className="h-1 w-1 rounded-full bg-muted-2" />
+            <span>LangChain</span>
+            <span className="h-1 w-1 rounded-full bg-muted-2" />
             <span>n8n</span>
-            <span className="h-1 w-1 rounded-full bg-muted-2" />
-            <span>AI Agents</span>
-            <span className="h-1 w-1 rounded-full bg-muted-2" />
-            <span>FastAPI</span>
-            <span className="h-1 w-1 rounded-full bg-muted-2" />
-            <span>PostgreSQL</span>
-            <span className="h-1 w-1 rounded-full bg-muted-2" />
-            <span>REST APIs</span>
           </div>
         </div>
 
